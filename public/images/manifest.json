@@ -1,0 +1,168 @@
+{
+  "categories": [
+    {
+      "label": "Controllers",
+      "folder": "cotroller",
+      "filter": "controllers",
+      "images": [
+        "controller 1.jpg",
+        "controller cummins.png",
+        "controller.jpg"
+      ]
+    },
+    {
+      "label": "AVR",
+      "folder": "avr",
+      "filter": "avr",
+      "images": [
+        "1.jpeg",
+        "11.jpeg",
+        "WhatsApp Image 2026-02-27 at 2.33.04 PM (1).jpeg",
+        "WhatsApp Image 2026-02-27 at 2.33.04 PM.jpeg",
+        "WhatsApp Image 2026-02-27 at 2.33.05 PM (1).jpeg",
+        "WhatsApp Image 2026-02-27 at 2.33.05 PM.jpeg",
+        "WhatsApp Image 2026-02-27 at 2.33.06 PM.jpeg",
+        "WhatsApp Image 2026-02-27 at 2.33.07 PM.jpeg",
+        "WhatsApp Image 2026-02-27 at 2.33.08 PM.jpeg",
+        "WhatsApp Image 2026-02-27 at 2.33.09 PM.jpeg",
+        "WhatsApp Image 2026-02-27 at 2.33.10 PM (1).jpeg",
+        "WhatsApp Image 2026-02-27 at 2.33.10 PM.jpeg",
+        "WhatsApp Image 2026-02-27 at 2.33.11 PM.jpeg",
+        "WhatsApp Image 2026-02-27 at 2.33.12 PM (1).jpeg",
+        "WhatsApp Image 2026-02-27 at 2.33.12 PM.jpeg",
+        "WhatsApp Image 2026-04-11 at 3.08.14 PM.jpeg",
+        "WhatsApp Image 2026-04-25 at 3.56.26 PM.jpeg",
+        "WhatsApp Image 2026-04-28 at 12.05.32 PM.jpeg",
+        "WhatsApp Image 2026-05-18 at 1.27.50 PM.jpeg",
+        "WhatsApp Image 2026-05-31 at 12.45.23 PM.jpeg",
+        "image17.jpeg",
+        "image23.jpeg",
+        "image24.jpeg",
+        "image4.jpeg",
+        "image6.jpeg",
+        "image9.jpeg"
+      ]
+    },
+    {
+      "label": "Filters",
+      "folder": "FILTERS",
+      "filter": "filters",
+      "images": [
+        "bosch-fuel-filter-1000x1000.jpg",
+        "fleetguard-lube-filter-1000x1000.webp",
+        "fuel-filter-element-1000x1000 (1).webp",
+        "fuel-filter-element-1000x1000 (2).webp",
+        "fuel-filter-element-1000x1000.webp",
+        "images (1).jpg",
+        "images (2).jpg",
+        "images.jpg",
+        "product-jpeg-1000x1000.webp",
+        "s-l1200.png"
+      ]
+    },
+    {
+      "label": "Battery",
+      "folder": "battery",
+      "filter": "battery",
+      "images": [
+        "battery group.jpg",
+        "battery.png"
+      ]
+    },
+    {
+      "label": "Coolant",
+      "folder": "coolant",
+      "filter": "coolant",
+      "images": [
+        "filtrum coolant.webp"
+      ]
+    },
+    {
+      "label": "Engine Spares",
+      "folder": "engine spares",
+      "filter": "engine-spares",
+      "images": [
+        "bellow.webp",
+        "diesel-generator-spare-parts.jpg",
+        "generator-set-spare-parts-529.jpg",
+        "image10.jpeg",
+        "image16.jpeg",
+        "image2.jpeg",
+        "image3.jpeg",
+        "spares 1.webp",
+        "spares 2.jpg",
+        "spares 3.jpg",
+        "spares genset.jpg"
+      ]
+    },
+    {
+      "label": "Fleetguard",
+      "folder": "fleetguart",
+      "filter": "fleetguard",
+      "images": [
+        "fleetguard-coolant-filter-500x500.webp",
+        "spares 4.jpg",
+        "unnamed.png"
+      ]
+    },
+    {
+      "label": "Fuel Gauge",
+      "folder": "fuel guage",
+      "filter": "fuel-gauge",
+      "images": [
+        "image22.jpeg",
+        "image26.jpeg",
+        "image27.jpeg",
+        "image7.jpeg",
+        "image8.jpeg"
+      ]
+    },
+    {
+      "label": "Oil",
+      "folder": "oil",
+      "filter": "oil",
+      "images": [
+        "Fleetguard Coolants Keep Your Engine Cool.png",
+        "filtrum.jpg",
+        "image15.jpeg",
+        "image25.jpeg",
+        "savsol oil.png",
+        "savsol.webp",
+        "sovsol oill.jpg",
+        "volivoline.webp",
+        "volvoline oil.png"
+      ]
+    },
+    {
+      "label": "Pistons",
+      "folder": "pistons",
+      "filter": "pistons",
+      "images": [
+        "image1.jpeg",
+        "image12.jpeg",
+        "image13.jpeg",
+        "image18.jpeg",
+        "image20.jpeg",
+        "image28.jpeg",
+        "image5.jpeg"
+      ]
+    },
+    {
+      "label": "Solenoid",
+      "folder": "solenoid",
+      "filter": "solenoid",
+      "images": [
+        "image19.jpeg",
+        "image21.jpeg"
+      ]
+    },
+    {
+      "label": "Valves",
+      "folder": "valves",
+      "filter": "valves",
+      "images": [
+        "image14.jpeg"
+      ]
+    }
+  ]
+}

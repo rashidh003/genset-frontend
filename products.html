@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="500+ generator spare parts and industrial components — controllers, AVRs, actuators, sensors, engine parts, cooling systems. GENSETS, Coimbatore.">
+  <meta name="description" content="1000+ generator spare parts and industrial components — controllers, AVRs, actuators, sensors, engine parts, cooling systems. GENSETS, Coimbatore.">
   <title>Generator Spare Parts &amp; Components | GENSETS, Coimbatore</title>
 
   <!-- Google Fonts -->
@@ -26,8 +26,7 @@
   <header class="site-header" id="site-header">
   <div class="nav-container">
     <a href="index.html" class="nav-logo">
-      <span class="logo-icon"><i class="fa-solid fa-bolt"></i></span>
-      <span class="logo-text">GENSETS</span>
+      <img src="public/logo.png" alt="GENSETS" class="nav-logo-img">
     </a>
 
     <nav class="nav-links" role="navigation" aria-label="Main navigation">
@@ -57,8 +56,7 @@
   <div class="mobile-drawer" id="mobile-drawer" aria-hidden="true">
     <div class="drawer-header">
       <a href="index.html" class="nav-logo">
-        <span class="logo-icon"><i class="fa-solid fa-bolt"></i></span>
-        <span class="logo-text">GENSETS</span>
+        <img src="public/logo.png" alt="GENSETS" class="nav-logo-img">
       </a>
       <button class="drawer-close" id="drawer-close" aria-label="Close menu">
         <i class="fa-solid fa-xmark"></i>
@@ -93,7 +91,7 @@
         <span class="current">Products</span>
       </nav>
       <h1>Generator Spare Parts &amp;<br><span>Industrial Components</span></h1>
-      <p class="hero-subtitle">500+ products across all major categories — sourced, verified, and dispatched from Coimbatore</p>
+      <p class="hero-subtitle">1000+ products across all major categories — sourced, verified, and dispatched from Coimbatore</p>
     </div>
   </section>
 
@@ -102,18 +100,7 @@
   ============================================= -->
   <section class="filter-section" aria-label="Product filters">
     <div class="container">
-      <div class="filter-bar" role="group" aria-label="Filter products by category">
-        <button class="filter-btn active" data-filter="all">All Products</button>
-        <button class="filter-btn" data-filter="controllers">Controllers</button>
-        <button class="filter-btn" data-filter="avrs">AVRs</button>
-        <button class="filter-btn" data-filter="actuators">Actuators</button>
-        <button class="filter-btn" data-filter="sensors">Sensors</button>
-        <button class="filter-btn" data-filter="engine-parts">Engine Parts</button>
-        <button class="filter-btn" data-filter="electrical">Electrical</button>
-        <button class="filter-btn" data-filter="cooling">Cooling</button>
-        <button class="filter-btn" data-filter="cummins">Cummins</button>
-        <button class="filter-btn" data-filter="jcb">JCB Parts</button>
-      </div>
+      <div class="filter-bar" id="filterBar" role="group" aria-label="Filter products by category"></div>
     </div>
   </section>
 
@@ -125,7 +112,7 @@
 
       <div class="section-header-row">
         <h2>All Products</h2>
-        <span class="product-count" id="productCountLabel">Showing <strong id="productCount">38</strong> products</span>
+        <span class="product-count" id="productCountLabel">Showing <strong id="productCount">81</strong> products</span>
       </div>
 
       <div class="no-price-banner">
@@ -135,581 +122,9 @@
       </div>
 
       <div class="grid-3" id="productsGrid">
-
-        <!-- ── CONTROLLERS ─────────────────────── -->
-
-        <!-- 1. Deep Sea 4520 Controller -->
-        <div class="product-card card reveal" data-category="controllers">
-          <div class="product-badge">Controller</div>
-          <div class="img-wrapper product-img" data-replace="product-dse4520">
-            <img src="public/images/image21.jpeg" alt="Deep Sea DSE4520 generator controller circuit board" class="site-img" loading="lazy">
-          </div>
-          <h3 class="product-name">Deep Sea 4520 Controller</h3>
-          <p class="product-desc">Advanced engine protection controller with CAN bus interface, comprehensive engine monitoring, and remote communication capability for industrial generators.</p>
-          <div class="product-tags">
-            <span class="tag">Deep Sea</span>
-            <span class="tag">Cummins</span>
-            <span class="tag">Kirloskar</span>
-          </div>
-          <div class="product-cta">
-            <a href="tel:+919363208579" class="btn btn-primary btn-sm"><i class="fa-solid fa-phone"></i> Call</a>
-            <a href="https://wa.me/919363208579?text=Hello%20GENSETS%2C%20I%20need%20info%20about%20Deep%20Sea%204520%20Controller" class="btn btn-whatsapp btn-sm" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-whatsapp"></i> WhatsApp</a>
-            <a href="enquiry.html" class="btn btn-outline btn-sm"><i class="fa-solid fa-envelope"></i> Enquire</a>
-          </div>
+        <div class="products-loading" id="productsLoading">
+          <i class="fa-solid fa-spinner fa-spin"></i> Loading products…
         </div>
-
-        <!-- 2. Cummins PCC3300 Controller -->
-        <div class="product-card card reveal" data-category="controllers">
-          <div class="product-badge">Controller</div>
-          <div class="img-wrapper product-img" data-replace="product-pcc3300">
-            <img src="public/images/image4.jpeg" alt="Cummins PCC3300 PowerCommand generator control module" class="site-img" loading="lazy">
-          </div>
-          <h3 class="product-name">Cummins PCC3300 Controller</h3>
-          <p class="product-desc">Cummins PowerCommand 3300 digital generator set control module with advanced metering, genset monitoring, and SAE J1939 CANbus communication.</p>
-          <div class="product-tags">
-            <span class="tag">Cummins</span>
-            <span class="tag">PCC</span>
-            <span class="tag">Engine Control</span>
-          </div>
-          <div class="product-cta">
-            <a href="tel:+919363208579" class="btn btn-primary btn-sm"><i class="fa-solid fa-phone"></i> Call</a>
-            <a href="https://wa.me/919363208579?text=Hello%20GENSETS%2C%20I%20need%20info%20about%20Cummins%20PCC3300%20Controller" class="btn btn-whatsapp btn-sm" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-whatsapp"></i> WhatsApp</a>
-            <a href="enquiry.html" class="btn btn-outline btn-sm"><i class="fa-solid fa-envelope"></i> Enquire</a>
-          </div>
-        </div>
-
-        <!-- 3. Deep Sea 7320 MKII -->
-        <div class="product-card card reveal" data-category="controllers">
-          <div class="product-badge">Controller</div>
-          <div class="img-wrapper product-img" data-replace="product-dse7320">
-            <img src="public/images/image1.jpeg" alt="Deep Sea DSE7320 MKII paralleling controller circuit board" class="site-img" loading="lazy">
-          </div>
-          <h3 class="product-name">Deep Sea 7320 MKII</h3>
-          <p class="product-desc">Multi-set synchronising and load sharing controller for paralleling up to 32 generator sets in complex power management systems.</p>
-          <div class="product-tags">
-            <span class="tag">Deep Sea</span>
-            <span class="tag">Paralleling</span>
-            <span class="tag">Load Share</span>
-          </div>
-          <div class="product-cta">
-            <a href="tel:+919363208579" class="btn btn-primary btn-sm"><i class="fa-solid fa-phone"></i> Call</a>
-            <a href="https://wa.me/919363208579?text=Hello%20GENSETS%2C%20I%20need%20info%20about%20Deep%20Sea%207320%20MKII" class="btn btn-whatsapp btn-sm" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-whatsapp"></i> WhatsApp</a>
-            <a href="enquiry.html" class="btn btn-outline btn-sm"><i class="fa-solid fa-envelope"></i> Enquire</a>
-          </div>
-        </div>
-
-        <!-- 4. InteliGen 200 Controller -->
-        <div class="product-card card reveal" data-category="controllers">
-          <div class="product-badge">Controller</div>
-          <div class="img-wrapper product-img" data-replace="product-inteligennt200">
-            <img src="public/images/image24.jpeg" alt="ComAp InteliGen NT 200 genset controller" class="site-img" loading="lazy">
-          </div>
-          <h3 class="product-name">InteliGen 200 Controller</h3>
-          <p class="product-desc">ComAp InteliGen 200 genset controller with advanced protection, automatic mains failure, and full AMF functionality.</p>
-          <div class="product-tags">
-            <span class="tag">ComAp</span>
-            <span class="tag">AMF</span>
-            <span class="tag">InteliGen</span>
-          </div>
-          <div class="product-cta">
-            <a href="tel:+919363208579" class="btn btn-primary btn-sm"><i class="fa-solid fa-phone"></i> Call</a>
-            <a href="https://wa.me/919363208579?text=Hello%20GENSETS%2C%20I%20need%20info%20about%20InteliGen%20200%20Controller" class="btn btn-whatsapp btn-sm" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-whatsapp"></i> WhatsApp</a>
-            <a href="enquiry.html" class="btn btn-outline btn-sm"><i class="fa-solid fa-envelope"></i> Enquire</a>
-          </div>
-        </div>
-
-        <!-- 5. Cummins PCC1302 Controller -->
-        <div class="product-card card reveal" data-category="controllers">
-          <div class="product-badge">Controller</div>
-          <div class="img-wrapper product-img" data-replace="product-pcc1302">
-            <img src="public/images/image9.jpeg" alt="Cummins PCC1302 PowerCommand compact controller module" class="site-img" loading="lazy">
-          </div>
-          <h3 class="product-name">Cummins PCC1302 Controller</h3>
-          <p class="product-desc">Cummins PowerCommand 1302 digital generator control module with basic monitoring and fault protection for smaller generator sets.</p>
-          <div class="product-tags">
-            <span class="tag">Cummins</span>
-            <span class="tag">PCC</span>
-            <span class="tag">Compact</span>
-          </div>
-          <div class="product-cta">
-            <a href="tel:+919363208579" class="btn btn-primary btn-sm"><i class="fa-solid fa-phone"></i> Call</a>
-            <a href="https://wa.me/919363208579?text=Hello%20GENSETS%2C%20I%20need%20info%20about%20Cummins%20PCC1302%20Controller" class="btn btn-whatsapp btn-sm" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-whatsapp"></i> WhatsApp</a>
-            <a href="enquiry.html" class="btn btn-outline btn-sm"><i class="fa-solid fa-envelope"></i> Enquire</a>
-          </div>
-        </div>
-
-        <!-- 6. Woodward 8404-1001 Controller -->
-        <div class="product-card card reveal" data-category="controllers">
-          <div class="product-badge">Controller</div>
-          <div class="img-wrapper product-img" data-replace="product-woodward8404">
-            <img src="public/images/image8.jpeg" alt="Woodward 8404-1001 digital engine governor controller" class="site-img" loading="lazy">
-          </div>
-          <h3 class="product-name">Woodward 8404-1001 Controller</h3>
-          <p class="product-desc">Woodward digital engine governor controller for precise speed and load control in industrial diesel generator applications.</p>
-          <div class="product-tags">
-            <span class="tag">Woodward</span>
-            <span class="tag">Governor</span>
-            <span class="tag">Speed Control</span>
-          </div>
-          <div class="product-cta">
-            <a href="tel:+919363208579" class="btn btn-primary btn-sm"><i class="fa-solid fa-phone"></i> Call</a>
-            <a href="https://wa.me/919363208579?text=Hello%20GENSETS%2C%20I%20need%20info%20about%20Woodward%208404-1001%20Controller" class="btn btn-whatsapp btn-sm" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-whatsapp"></i> WhatsApp</a>
-            <a href="enquiry.html" class="btn btn-outline btn-sm"><i class="fa-solid fa-envelope"></i> Enquire</a>
-          </div>
-        </div>
-
-        <!-- ── AVRS ──────────────────────────────── -->
-
-        <!-- 7. Leroy-Somer R450T AVR -->
-        <div class="product-card card reveal" data-category="avrs">
-          <div class="product-badge">AVR</div>
-          <div class="img-wrapper product-img" data-replace="product-r450t">
-            <img src="public/images/image6.jpeg" alt="Leroy-Somer R450T automatic voltage regulator circuit board" class="site-img" loading="lazy">
-          </div>
-          <h3 class="product-name">Leroy-Somer R450T AVR</h3>
-          <p class="product-desc">Genuine Leroy-Somer R450T automatic voltage regulator for Leroy-Somer and compatible alternators. Provides stable voltage regulation under varying loads.</p>
-          <div class="product-tags">
-            <span class="tag">Leroy-Somer</span>
-            <span class="tag">R450T</span>
-            <span class="tag">Alternator</span>
-          </div>
-          <div class="product-cta">
-            <a href="tel:+919363208579" class="btn btn-primary btn-sm"><i class="fa-solid fa-phone"></i> Call</a>
-            <a href="https://wa.me/919363208579?text=Hello%20GENSETS%2C%20I%20need%20info%20about%20Leroy-Somer%20R450T%20AVR" class="btn btn-whatsapp btn-sm" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-whatsapp"></i> WhatsApp</a>
-            <a href="enquiry.html" class="btn btn-outline btn-sm"><i class="fa-solid fa-envelope"></i> Enquire</a>
-          </div>
-        </div>
-
-        <!-- 8. Stamford MX321 AVR -->
-        <div class="product-card card reveal" data-category="avrs">
-          <div class="product-badge">AVR</div>
-          <div class="img-wrapper product-img" data-replace="product-mx321">
-            <img src="public/images/image5.jpeg" alt="Stamford MX321 automatic voltage regulator board" class="site-img" loading="lazy">
-          </div>
-          <h3 class="product-name">Stamford MX321 AVR</h3>
-          <p class="product-desc">Stamford MX321 automatic voltage regulator for Newage Stamford alternators, providing ±0.5% voltage regulation accuracy.</p>
-          <div class="product-tags">
-            <span class="tag">Stamford</span>
-            <span class="tag">MX321</span>
-            <span class="tag">Alternator</span>
-          </div>
-          <div class="product-cta">
-            <a href="tel:+919363208579" class="btn btn-primary btn-sm"><i class="fa-solid fa-phone"></i> Call</a>
-            <a href="https://wa.me/919363208579?text=Hello%20GENSETS%2C%20I%20need%20info%20about%20Stamford%20MX321%20AVR" class="btn btn-whatsapp btn-sm" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-whatsapp"></i> WhatsApp</a>
-            <a href="enquiry.html" class="btn btn-outline btn-sm"><i class="fa-solid fa-envelope"></i> Enquire</a>
-          </div>
-        </div>
-
-        <!-- 9. Mecc Alte DSR AVR -->
-        <div class="product-card card reveal" data-category="avrs">
-          <div class="product-badge">AVR</div>
-          <div class="img-wrapper product-img" data-replace="product-meccalte-dsr">
-            <img src="public/images/image10.jpeg" alt="Mecc Alte DSR automatic voltage regulator" class="site-img" loading="lazy">
-          </div>
-          <h3 class="product-name">Mecc Alte DSR AVR</h3>
-          <p class="product-desc">Mecc Alte DSR automatic voltage regulator for Mecc Alte alternators used in single and three-phase generator applications.</p>
-          <div class="product-tags">
-            <span class="tag">Mecc Alte</span>
-            <span class="tag">DSR</span>
-            <span class="tag">Three-phase</span>
-          </div>
-          <div class="product-cta">
-            <a href="tel:+919363208579" class="btn btn-primary btn-sm"><i class="fa-solid fa-phone"></i> Call</a>
-            <a href="https://wa.me/919363208579?text=Hello%20GENSETS%2C%20I%20need%20info%20about%20Mecc%20Alte%20DSR%20AVR" class="btn btn-whatsapp btn-sm" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-whatsapp"></i> WhatsApp</a>
-            <a href="enquiry.html" class="btn btn-outline btn-sm"><i class="fa-solid fa-envelope"></i> Enquire</a>
-          </div>
-        </div>
-
-        <!-- 10. SX460 AVR -->
-        <div class="product-card card reveal" data-category="avrs">
-          <div class="product-badge">AVR</div>
-          <div class="img-wrapper product-img" data-replace="product-sx460">
-            <img src="public/images/image11.jpeg" alt="SX460 universal automatic voltage regulator replacement board" class="site-img" loading="lazy">
-          </div>
-          <h3 class="product-name">SX460 AVR</h3>
-          <p class="product-desc">SX460 automatic voltage regulator compatible with multiple alternator brands. Popular drop-in replacement for many generator installations.</p>
-          <div class="product-tags">
-            <span class="tag">SX460</span>
-            <span class="tag">Universal</span>
-            <span class="tag">Replacement</span>
-          </div>
-          <div class="product-cta">
-            <a href="tel:+919363208579" class="btn btn-primary btn-sm"><i class="fa-solid fa-phone"></i> Call</a>
-            <a href="https://wa.me/919363208579?text=Hello%20GENSETS%2C%20I%20need%20info%20about%20SX460%20AVR" class="btn btn-whatsapp btn-sm" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-whatsapp"></i> WhatsApp</a>
-            <a href="enquiry.html" class="btn btn-outline btn-sm"><i class="fa-solid fa-envelope"></i> Enquire</a>
-          </div>
-        </div>
-
-        <!-- ── ACTUATORS ──────────────────────────── -->
-
-        <!-- 11. GAC EG3000 Actuator -->
-        <div class="product-card card reveal" data-category="actuators">
-          <div class="product-badge">Actuator</div>
-          <div class="img-wrapper product-img" data-replace="product-gac-eg3000">
-            <img src="public/images/image22.jpeg" alt="GAC EG3000 electric governor actuator for diesel engine" class="site-img" loading="lazy">
-          </div>
-          <h3 class="product-name">GAC EG3000 Actuator</h3>
-          <p class="product-desc">GAC EG3000 series electric governor actuator for diesel engine speed control. Compatible with multiple engine brands and governor systems.</p>
-          <div class="product-tags">
-            <span class="tag">GAC</span>
-            <span class="tag">Speed Control</span>
-            <span class="tag">Diesel</span>
-          </div>
-          <div class="product-cta">
-            <a href="tel:+919363208579" class="btn btn-primary btn-sm"><i class="fa-solid fa-phone"></i> Call</a>
-            <a href="https://wa.me/919363208579?text=Hello%20GENSETS%2C%20I%20need%20info%20about%20GAC%20EG3000%20Actuator" class="btn btn-whatsapp btn-sm" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-whatsapp"></i> WhatsApp</a>
-            <a href="enquiry.html" class="btn btn-outline btn-sm"><i class="fa-solid fa-envelope"></i> Enquire</a>
-          </div>
-        </div>
-
-        <!-- 12. Woodward 8256-024 Actuator -->
-        <div class="product-card card reveal" data-category="actuators">
-          <div class="product-badge">Actuator</div>
-          <div class="img-wrapper product-img" data-replace="product-woodward-actuator">
-            <img src="public/images/image12.jpeg" alt="Woodward 8256-024 linear electric actuator for fuel rack control" class="site-img" loading="lazy">
-          </div>
-          <h3 class="product-name">Woodward 8256-024 Actuator</h3>
-          <p class="product-desc">Woodward linear electric actuator for fuel rack and throttle control on industrial diesel engines and generators.</p>
-          <div class="product-tags">
-            <span class="tag">Woodward</span>
-            <span class="tag">Linear</span>
-            <span class="tag">Fuel Control</span>
-          </div>
-          <div class="product-cta">
-            <a href="tel:+919363208579" class="btn btn-primary btn-sm"><i class="fa-solid fa-phone"></i> Call</a>
-            <a href="https://wa.me/919363208579?text=Hello%20GENSETS%2C%20I%20need%20info%20about%20Woodward%208256-024%20Actuator" class="btn btn-whatsapp btn-sm" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-whatsapp"></i> WhatsApp</a>
-            <a href="enquiry.html" class="btn btn-outline btn-sm"><i class="fa-solid fa-envelope"></i> Enquire</a>
-          </div>
-        </div>
-
-        <!-- 13. DECS 100 Actuator -->
-        <div class="product-card card reveal" data-category="actuators">
-          <div class="product-badge">Actuator</div>
-          <div class="img-wrapper product-img" data-replace="product-decs100">
-            <img src="public/images/image18.jpeg" alt="DECS 100 digital excitation control actuator system" class="site-img" loading="lazy">
-          </div>
-          <h3 class="product-name">DECS 100 Actuator</h3>
-          <p class="product-desc">Digital excitation control actuator system for generator voltage regulation and excitation management on industrial alternators.</p>
-          <div class="product-tags">
-            <span class="tag">DECS</span>
-            <span class="tag">Excitation</span>
-            <span class="tag">Control</span>
-          </div>
-          <div class="product-cta">
-            <a href="tel:+919363208579" class="btn btn-primary btn-sm"><i class="fa-solid fa-phone"></i> Call</a>
-            <a href="https://wa.me/919363208579?text=Hello%20GENSETS%2C%20I%20need%20info%20about%20DECS%20100%20Actuator" class="btn btn-whatsapp btn-sm" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-whatsapp"></i> WhatsApp</a>
-            <a href="enquiry.html" class="btn btn-outline btn-sm"><i class="fa-solid fa-envelope"></i> Enquire</a>
-          </div>
-        </div>
-
-        <!-- ── SENSORS ────────────────────────────── -->
-
-        <!-- 14. VDO Oil Pressure Sender -->
-        <div class="product-card card reveal" data-category="sensors">
-          <div class="product-badge">Sensor</div>
-          <div class="img-wrapper product-img" data-replace="product-vdo-oil">
-            <img src="public/images/image3.jpeg" alt="VDO oil pressure sender unit for diesel engine protection" class="site-img" loading="lazy">
-          </div>
-          <h3 class="product-name">VDO Oil Pressure Sender</h3>
-          <p class="product-desc">VDO oil pressure sender unit for engine protection systems. Compatible with Deep Sea, Cummins PCC, and most digital generator controllers.</p>
-          <div class="product-tags">
-            <span class="tag">VDO</span>
-            <span class="tag">Oil Pressure</span>
-            <span class="tag">Engine Protection</span>
-          </div>
-          <div class="product-cta">
-            <a href="tel:+919363208579" class="btn btn-primary btn-sm"><i class="fa-solid fa-phone"></i> Call</a>
-            <a href="https://wa.me/919363208579?text=Hello%20GENSETS%2C%20I%20need%20info%20about%20VDO%20Oil%20Pressure%20Sender" class="btn btn-whatsapp btn-sm" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-whatsapp"></i> WhatsApp</a>
-            <a href="enquiry.html" class="btn btn-outline btn-sm"><i class="fa-solid fa-envelope"></i> Enquire</a>
-          </div>
-        </div>
-
-        <!-- 15. VDO Coolant Temperature Sender -->
-        <div class="product-card card reveal" data-category="sensors">
-          <div class="product-badge">Sensor</div>
-          <div class="img-wrapper product-img" data-replace="product-vdo-temp">
-            <img src="public/images/image19.jpeg" alt="VDO coolant temperature sender for diesel generator engine" class="site-img" loading="lazy">
-          </div>
-          <h3 class="product-name">VDO Coolant Temperature Sender</h3>
-          <p class="product-desc">VDO coolant temperature sender for engine monitoring and over-temperature protection on diesel generator sets.</p>
-          <div class="product-tags">
-            <span class="tag">VDO</span>
-            <span class="tag">Temperature</span>
-            <span class="tag">Coolant</span>
-          </div>
-          <div class="product-cta">
-            <a href="tel:+919363208579" class="btn btn-primary btn-sm"><i class="fa-solid fa-phone"></i> Call</a>
-            <a href="https://wa.me/919363208579?text=Hello%20GENSETS%2C%20I%20need%20info%20about%20VDO%20Coolant%20Temperature%20Sender" class="btn btn-whatsapp btn-sm" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-whatsapp"></i> WhatsApp</a>
-            <a href="enquiry.html" class="btn btn-outline btn-sm"><i class="fa-solid fa-envelope"></i> Enquire</a>
-          </div>
-        </div>
-
-        <!-- 16. Speed Sensor Proximity Switch -->
-        <div class="product-card card reveal" data-category="sensors">
-          <div class="product-badge">Sensor</div>
-          <div class="img-wrapper product-img" data-replace="product-speed-sensor">
-            <img src="public/images/image14.jpeg" alt="Magnetic pickup speed sensor for diesel engine RPM monitoring" class="site-img" loading="lazy">
-          </div>
-          <h3 class="product-name">Speed Sensor Proximity Switch</h3>
-          <p class="product-desc">Magnetic pickup speed sensor for engine RPM monitoring. Compatible with flywheel ring gear on Cummins, Kirloskar, and other diesel engines.</p>
-          <div class="product-tags">
-            <span class="tag">RPM</span>
-            <span class="tag">Magnetic Pickup</span>
-            <span class="tag">Flywheel</span>
-          </div>
-          <div class="product-cta">
-            <a href="tel:+919363208579" class="btn btn-primary btn-sm"><i class="fa-solid fa-phone"></i> Call</a>
-            <a href="https://wa.me/919363208579?text=Hello%20GENSETS%2C%20I%20need%20info%20about%20Speed%20Sensor%20Proximity%20Switch" class="btn btn-whatsapp btn-sm" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-whatsapp"></i> WhatsApp</a>
-            <a href="enquiry.html" class="btn btn-outline btn-sm"><i class="fa-solid fa-envelope"></i> Enquire</a>
-          </div>
-        </div>
-
-        <!-- 17. Fuel Level Float Sender -->
-        <div class="product-card card reveal" data-category="sensors">
-          <div class="product-badge">Sensor</div>
-          <div class="img-wrapper product-img" data-replace="product-fuel-sender">
-            <img src="public/images/image2.jpeg" alt="Float type fuel level sender for generator fuel tank" class="site-img" loading="lazy">
-          </div>
-          <h3 class="product-name">Fuel Level Float Sender</h3>
-          <p class="product-desc">Float-type fuel level sender for generator fuel tanks. Provides accurate level signal to digital controllers and standalone fuel gauges.</p>
-          <div class="product-tags">
-            <span class="tag">Fuel Level</span>
-            <span class="tag">Float</span>
-            <span class="tag">Tank</span>
-          </div>
-          <div class="product-cta">
-            <a href="tel:+919363208579" class="btn btn-primary btn-sm"><i class="fa-solid fa-phone"></i> Call</a>
-            <a href="https://wa.me/919363208579?text=Hello%20GENSETS%2C%20I%20need%20info%20about%20Fuel%20Level%20Float%20Sender" class="btn btn-whatsapp btn-sm" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-whatsapp"></i> WhatsApp</a>
-            <a href="enquiry.html" class="btn btn-outline btn-sm"><i class="fa-solid fa-envelope"></i> Enquire</a>
-          </div>
-        </div>
-
-        <!-- ── ELECTRICAL ──────────────────────────── -->
-
-        <!-- 18. Generator Relay Card -->
-        <div class="product-card card reveal" data-category="electrical">
-          <div class="product-badge">Electrical</div>
-          <div class="img-wrapper product-img" data-replace="product-relay-card">
-            <img src="public/images/image13.jpeg" alt="Generator protection relay card for digital control systems" class="site-img" loading="lazy">
-          </div>
-          <h3 class="product-name">Generator Relay Card</h3>
-          <p class="product-desc">Generator protection relay card for start/stop control, fault protection, and auxiliary switching functions on digital control systems.</p>
-          <div class="product-tags">
-            <span class="tag">Relay</span>
-            <span class="tag">Protection</span>
-            <span class="tag">Control</span>
-          </div>
-          <div class="product-cta">
-            <a href="tel:+919363208579" class="btn btn-primary btn-sm"><i class="fa-solid fa-phone"></i> Call</a>
-            <a href="https://wa.me/919363208579?text=Hello%20GENSETS%2C%20I%20need%20info%20about%20Generator%20Relay%20Card" class="btn btn-whatsapp btn-sm" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-whatsapp"></i> WhatsApp</a>
-            <a href="enquiry.html" class="btn btn-outline btn-sm"><i class="fa-solid fa-envelope"></i> Enquire</a>
-          </div>
-        </div>
-
-        <!-- 19. Generator Battery Charger -->
-        <div class="product-card card reveal" data-category="electrical">
-          <div class="product-badge">Electrical</div>
-          <div class="img-wrapper product-img" data-replace="product-battery-charger">
-            <img src="public/images/image15.jpeg" alt="Automatic float battery charger for generator starting batteries" class="site-img" loading="lazy">
-          </div>
-          <h3 class="product-name">Generator Battery Charger</h3>
-          <p class="product-desc">Automatic float battery charger for generator starting batteries. Maintains optimal charge state for reliable engine cranking.</p>
-          <div class="product-tags">
-            <span class="tag">Battery</span>
-            <span class="tag">Float Charge</span>
-            <span class="tag">12V/24V</span>
-          </div>
-          <div class="product-cta">
-            <a href="tel:+919363208579" class="btn btn-primary btn-sm"><i class="fa-solid fa-phone"></i> Call</a>
-            <a href="https://wa.me/919363208579?text=Hello%20GENSETS%2C%20I%20need%20info%20about%20Generator%20Battery%20Charger" class="btn btn-whatsapp btn-sm" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-whatsapp"></i> WhatsApp</a>
-            <a href="enquiry.html" class="btn btn-outline btn-sm"><i class="fa-solid fa-envelope"></i> Enquire</a>
-          </div>
-        </div>
-
-        <!-- 20. AMF Control Panel -->
-        <div class="product-card card reveal" data-category="electrical">
-          <div class="product-badge">Electrical</div>
-          <div class="img-wrapper product-img" data-replace="product-amf-panel">
-            <img src="public/images/image7.jpeg" alt="Automatic Mains Failure AMF control panel for generator changeover" class="site-img" loading="lazy">
-          </div>
-          <h3 class="product-name">AMF Control Panel</h3>
-          <p class="product-desc">Automatic Mains Failure control panel for automatic generator changeover when grid power fails. Suitable for single and three-phase systems.</p>
-          <div class="product-tags">
-            <span class="tag">AMF</span>
-            <span class="tag">Auto Changeover</span>
-            <span class="tag">Panel</span>
-          </div>
-          <div class="product-cta">
-            <a href="tel:+919363208579" class="btn btn-primary btn-sm"><i class="fa-solid fa-phone"></i> Call</a>
-            <a href="https://wa.me/919363208579?text=Hello%20GENSETS%2C%20I%20need%20info%20about%20AMF%20Control%20Panel" class="btn btn-whatsapp btn-sm" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-whatsapp"></i> WhatsApp</a>
-            <a href="enquiry.html" class="btn btn-outline btn-sm"><i class="fa-solid fa-envelope"></i> Enquire</a>
-          </div>
-        </div>
-
-        <!-- 21. PSO 500 Control Panel -->
-        <div class="product-card card reveal" data-category="electrical">
-          <div class="product-badge">Electrical</div>
-          <div class="img-wrapper product-img" data-replace="product-pso500">
-            <img src="public/images/image16.jpeg" alt="PSO 500 Cummins generator control panel with digital display" class="site-img" loading="lazy">
-          </div>
-          <h3 class="product-name">PSO 500 Control Panel</h3>
-          <p class="product-desc">PSO 500 Cummins generator control panel with digital display, engine monitoring, and fault indication for Cummins generator sets.</p>
-          <div class="product-tags">
-            <span class="tag">PSO 500</span>
-            <span class="tag">Cummins</span>
-            <span class="tag">Panel</span>
-          </div>
-          <div class="product-cta">
-            <a href="tel:+919363208579" class="btn btn-primary btn-sm"><i class="fa-solid fa-phone"></i> Call</a>
-            <a href="https://wa.me/919363208579?text=Hello%20GENSETS%2C%20I%20need%20info%20about%20PSO%20500%20Control%20Panel" class="btn btn-whatsapp btn-sm" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-whatsapp"></i> WhatsApp</a>
-            <a href="enquiry.html" class="btn btn-outline btn-sm"><i class="fa-solid fa-envelope"></i> Enquire</a>
-          </div>
-        </div>
-
-        <!-- 22. Industrial Contactor 63A -->
-        <div class="product-card card reveal" data-category="electrical">
-          <div class="product-badge">Electrical</div>
-          <div class="img-wrapper product-img" data-replace="product-contactor-63a">
-            <img src="public/images/image17.jpeg" alt="Heavy duty industrial contactor 63A for generator output switching" class="site-img" loading="lazy">
-          </div>
-          <h3 class="product-name">Industrial Contactor 63A</h3>
-          <p class="product-desc">Heavy-duty industrial contactor for generator output switching and load control applications in commercial and industrial installations.</p>
-          <div class="product-tags">
-            <span class="tag">Contactor</span>
-            <span class="tag">63A</span>
-            <span class="tag">Load Switch</span>
-          </div>
-          <div class="product-cta">
-            <a href="tel:+919363208579" class="btn btn-primary btn-sm"><i class="fa-solid fa-phone"></i> Call</a>
-            <a href="https://wa.me/919363208579?text=Hello%20GENSETS%2C%20I%20need%20info%20about%20Industrial%20Contactor%2063A" class="btn btn-whatsapp btn-sm" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-whatsapp"></i> WhatsApp</a>
-            <a href="enquiry.html" class="btn btn-outline btn-sm"><i class="fa-solid fa-envelope"></i> Enquire</a>
-          </div>
-        </div>
-
-        <!-- ── ENGINE PARTS ────────────────────────── -->
-
-        <!-- 23. Cummins 6BT Piston Kit -->
-        <div class="product-card card reveal" data-category="engine-parts">
-          <div class="product-badge">Engine Parts</div>
-          <div class="img-wrapper product-img" data-replace="product-6bt-piston">
-            <img src="public/images/image20.jpeg" alt="Cummins 6BT piston kit with rings and pin for engine overhaul" class="site-img" loading="lazy">
-          </div>
-          <h3 class="product-name">Cummins 6BT Piston Kit</h3>
-          <p class="product-desc">Complete piston kit for Cummins 6BT and 6BTA engines including piston, rings, and pin. OEM-equivalent specification for engine overhaul.</p>
-          <div class="product-tags">
-            <span class="tag">Cummins</span>
-            <span class="tag">6BT</span>
-            <span class="tag">Overhaul</span>
-          </div>
-          <div class="product-cta">
-            <a href="tel:+919363208579" class="btn btn-primary btn-sm"><i class="fa-solid fa-phone"></i> Call</a>
-            <a href="https://wa.me/919363208579?text=Hello%20GENSETS%2C%20I%20need%20info%20about%20Cummins%206BT%20Piston%20Kit" class="btn btn-whatsapp btn-sm" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-whatsapp"></i> WhatsApp</a>
-            <a href="enquiry.html" class="btn btn-outline btn-sm"><i class="fa-solid fa-envelope"></i> Enquire</a>
-          </div>
-        </div>
-
-        <!-- 24. Kirloskar Piston Kit -->
-        <div class="product-card card reveal" data-category="engine-parts">
-          <div class="product-badge">Engine Parts</div>
-          <div class="img-wrapper product-img" data-replace="product-kirloskar-piston">
-            <img src="public/images/image25.jpeg" alt="Kirloskar HA294 RV series piston kit for Indian generator engines" class="site-img" loading="lazy">
-          </div>
-          <h3 class="product-name">Kirloskar Piston Kit</h3>
-          <p class="product-desc">OEM-equivalent piston kit for Kirloskar HA294, RV1, and RV series engines commonly used in Indian generator sets.</p>
-          <div class="product-tags">
-            <span class="tag">Kirloskar</span>
-            <span class="tag">Piston</span>
-            <span class="tag">Engine</span>
-          </div>
-          <div class="product-cta">
-            <a href="tel:+919363208579" class="btn btn-primary btn-sm"><i class="fa-solid fa-phone"></i> Call</a>
-            <a href="https://wa.me/919363208579?text=Hello%20GENSETS%2C%20I%20need%20info%20about%20Kirloskar%20Piston%20Kit" class="btn btn-whatsapp btn-sm" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-whatsapp"></i> WhatsApp</a>
-            <a href="enquiry.html" class="btn btn-outline btn-sm"><i class="fa-solid fa-envelope"></i> Enquire</a>
-          </div>
-        </div>
-
-        <!-- 25. Connecting Rod Assembly -->
-        <div class="product-card card reveal" data-category="engine-parts">
-          <div class="product-badge">Engine Parts</div>
-          <div class="img-wrapper product-img" data-replace="product-conrod">
-            <img src="public/images/image26.jpeg" alt="High strength forged connecting rod assembly for diesel generator engine" class="site-img" loading="lazy">
-          </div>
-          <h3 class="product-name">Connecting Rod Assembly</h3>
-          <p class="product-desc">High-strength forged connecting rod assembly for diesel generator engine overhaul. Compatible with Cummins, Kirloskar, and KOEL engines.</p>
-          <div class="product-tags">
-            <span class="tag">Connecting Rod</span>
-            <span class="tag">Overhaul</span>
-            <span class="tag">Forged</span>
-          </div>
-          <div class="product-cta">
-            <a href="tel:+919363208579" class="btn btn-primary btn-sm"><i class="fa-solid fa-phone"></i> Call</a>
-            <a href="https://wa.me/919363208579?text=Hello%20GENSETS%2C%20I%20need%20info%20about%20Connecting%20Rod%20Assembly" class="btn btn-whatsapp btn-sm" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-whatsapp"></i> WhatsApp</a>
-            <a href="enquiry.html" class="btn btn-outline btn-sm"><i class="fa-solid fa-envelope"></i> Enquire</a>
-          </div>
-        </div>
-
-        <!-- 26. Rocker Arm Assembly -->
-        <div class="product-card card reveal" data-category="engine-parts">
-          <div class="product-badge">Engine Parts</div>
-          <div class="img-wrapper product-img" data-replace="product-rocker-arm">
-            <img src="public/images/image27.jpeg" alt="Complete rocker arm assembly with shaft and bushings for diesel engine" class="site-img" loading="lazy">
-          </div>
-          <h3 class="product-name">Rocker Arm Assembly</h3>
-          <p class="product-desc">Complete rocker arm assembly for diesel generator engines including rocker arm, shaft, and bushings. Multiple brand compatibilities available.</p>
-          <div class="product-tags">
-            <span class="tag">Rocker Arm</span>
-            <span class="tag">Valve Train</span>
-            <span class="tag">Engine</span>
-          </div>
-          <div class="product-cta">
-            <a href="tel:+919363208579" class="btn btn-primary btn-sm"><i class="fa-solid fa-phone"></i> Call</a>
-            <a href="https://wa.me/919363208579?text=Hello%20GENSETS%2C%20I%20need%20info%20about%20Rocker%20Arm%20Assembly" class="btn btn-whatsapp btn-sm" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-whatsapp"></i> WhatsApp</a>
-            <a href="enquiry.html" class="btn btn-outline btn-sm"><i class="fa-solid fa-envelope"></i> Enquire</a>
-          </div>
-        </div>
-
-        <!-- 27. Cummins 6BT Head Gasket Set -->
-        <div class="product-card card reveal" data-category="engine-parts">
-          <div class="product-badge">Engine Parts</div>
-          <div class="img-wrapper product-img" data-replace="product-head-gasket">
-            <img src="public/images/image23.jpeg" alt="Cummins 6BT complete top end gasket kit for engine rebuild" class="site-img" loading="lazy">
-          </div>
-          <h3 class="product-name">Cummins 6BT Head Gasket Set</h3>
-          <p class="product-desc">Complete top end gasket kit for Cummins 6BT engine rebuilds including head gasket, valve stem seals, and manifold gaskets.</p>
-          <div class="product-tags">
-            <span class="tag">Gasket Kit</span>
-            <span class="tag">Cummins</span>
-            <span class="tag">Top End</span>
-          </div>
-          <div class="product-cta">
-            <a href="tel:+919363208579" class="btn btn-primary btn-sm"><i class="fa-solid fa-phone"></i> Call</a>
-            <a href="https://wa.me/919363208579?text=Hello%20GENSETS%2C%20I%20need%20info%20about%20Cummins%206BT%20Head%20Gasket%20Set" class="btn btn-whatsapp btn-sm" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-whatsapp"></i> WhatsApp</a>
-            <a href="enquiry.html" class="btn btn-outline btn-sm"><i class="fa-solid fa-envelope"></i> Enquire</a>
-          </div>
-        </div>
-
-        <!-- ── COOLING ─────────────────────────────── -->
-
-        <!-- 28. Banco Generator Radiator -->
-        <div class="product-card card reveal" data-category="cooling">
-          <div class="product-badge">Cooling</div>
-          <div class="img-wrapper product-img" data-replace="product-banco-radiator">
-            <img src="public/images/image28.jpeg" alt="Banco aluminum generator radiator core for diesel generator sets" class="site-img" loading="lazy">
-          </div>
-          <h3 class="product-name">Banco Generator Radiator</h3>
-          <p class="product-desc">Banco aluminum generator radiator core for diesel generator sets. Available for multiple generator sizes from 25kVA to 500kVA.</p>
-          <div class="product-tags">
-            <span class="tag">Banco</span>
-            <span class="tag">Radiator</span>
-            <span class="tag">Cooling</span>
-          </div>
-          <div class="product-cta">
-            <a href="tel:+919363208579" class="btn btn-primary btn-sm"><i class="fa-solid fa-phone"></i> Call</a>
-            <a href="https://wa.me/919363208579?text=Hello%20GENSETS%2C%20I%20need%20info%20about%20Banco%20Generator%20Radiator" class="btn btn-whatsapp btn-sm" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-whatsapp"></i> WhatsApp</a>
-            <a href="enquiry.html" class="btn btn-outline btn-sm"><i class="fa-solid fa-envelope"></i> Enquire</a>
-          </div>
-        </div>
-
       </div><!-- /.grid-3 #productsGrid -->
 
 
@@ -758,8 +173,7 @@
     <div class="footer-grid">
       <div class="footer-brand">
         <a href="index.html" class="nav-logo">
-          <span class="logo-icon"><i class="fa-solid fa-bolt"></i></span>
-          <span class="logo-text">GENSETS</span>
+          <img src="public/logo.png" alt="GENSETS" class="nav-logo-img">
         </a>
         <p>Coimbatore's trusted partner for generator spare parts, industrial power solutions, and engineering services. Supplying quality parts to factories, hospitals, hotels, and industries across Tamil Nadu and India.</p>
         <div class="footer-social">
@@ -841,6 +255,84 @@
 </div>
 
 <script src="main.js"></script>
+<script>
+(function () {
+  'use strict';
+  var PHONE    = '+919363208579';
+  var WA_NUM   = '919363208579';
+  var filterBar = document.getElementById('filterBar');
+  var grid      = document.getElementById('productsGrid');
+  var countEl   = document.getElementById('productCount');
+
+  function encPath(str) {
+    // Encode each path segment individually, keeping / separators
+    return str.split('/').map(function(s){ return encodeURIComponent(s); }).join('/');
+  }
+
+  function buildCard(cat, imgFile) {
+    var src    = 'public/images/' + encPath(cat.folder) + '/' + encPath(imgFile);
+    var waMsg  = encodeURIComponent('Hello GENSETS, I need a quote for: ' + cat.label);
+    return '<div class="product-card card" data-category="' + cat.filter + '">'
+      + '<div class="product-badge">' + cat.label + '</div>'
+      + '<div class="product-img-wrap">'
+      + '<img src="' + src + '" alt="' + cat.label + '" loading="lazy">'
+      + '</div>'
+      + '<div class="product-cta">'
+      + '<a href="tel:' + PHONE + '" class="cta-call"><i class="fa-solid fa-phone"></i> Call</a>'
+      + '<a href="https://wa.me/' + WA_NUM + '?text=' + waMsg + '" class="cta-wa" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-whatsapp"></i> WhatsApp</a>'
+      + '</div>'
+      + '</div>';
+  }
+
+  function wireFilters() {
+    var btns  = filterBar.querySelectorAll('.filter-btn');
+    var cards = grid.querySelectorAll('.product-card');
+    btns.forEach(function(btn) {
+      btn.addEventListener('click', function() {
+        btns.forEach(function(b){ b.classList.remove('active'); });
+        btn.classList.add('active');
+        var f = btn.dataset.filter;
+        var visible = 0;
+        cards.forEach(function(card) {
+          var show = f === 'all' || card.dataset.category === f;
+          card.style.display = show ? '' : 'none';
+          if (show) visible++;
+        });
+        if (countEl) countEl.textContent = visible;
+      });
+    });
+  }
+
+  fetch('public/images/manifest.json')
+    .then(function(r){ return r.json(); })
+    .then(function(data) {
+      // Build filter buttons
+      var fbHtml = '<button class="filter-btn active" data-filter="all">All Products</button>';
+      data.categories.forEach(function(cat) {
+        fbHtml += '<button class="filter-btn" data-filter="' + cat.filter + '">' + cat.label + '</button>';
+      });
+      filterBar.innerHTML = fbHtml;
+
+      // Build cards
+      var html  = '';
+      var total = 0;
+      data.categories.forEach(function(cat) {
+        cat.images.forEach(function(img) {
+          html += buildCard(cat, img);
+          total++;
+        });
+      });
+      grid.innerHTML = html;
+      if (countEl) countEl.textContent = total;
+
+      wireFilters();
+    })
+    .catch(function(err) {
+      grid.innerHTML = '<p style="padding:40px;color:#666;">Could not load products. Please refresh the page.</p>';
+      console.error('Manifest load error:', err);
+    });
+})();
+</script>
 
 </body>
 </html>
